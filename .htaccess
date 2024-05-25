@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirect all HTTP traffic to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://mikebostone.com%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^mikebostone\.com$ [NC]
+RewriteRule ^ https://mikebostone.com%{REQUEST_URI} [L,R=301]

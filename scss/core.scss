@@ -1,0 +1,57 @@
+$color-dark-blue: #1c2a46;
+$color-cream: #fcfbf7;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+}
+
+.clear:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+body {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: $color-dark-blue;
+  color: $color-cream;
+}
+
+p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  font-weight: 600;
+}

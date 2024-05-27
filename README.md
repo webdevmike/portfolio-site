@@ -2,4 +2,4 @@
 
 My Portfolio Website
 
-https://mikebostone.com
+<a href="https://mikebostone.com" target="_blank">https://mikebostone.com</a>
